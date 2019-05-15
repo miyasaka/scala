@@ -12,11 +12,9 @@ object Hell{
   def for_0(lists: List[Int]) = {
     println(lists)
     for (list <- lists) println(list)
-    println("----")
     for (list <- lists.reverse){
       println(list)
     }
-    println("----")
     println(lists ::: lists.reverse)
   }
 
