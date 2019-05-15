@@ -15,7 +15,10 @@ object Hell{
     for (list <- lists.reverse){
       println(list)
     }
+    // List merge
     println(lists ::: lists.reverse)
+    val lst_merge = lists ::: lists.reverse
+    for (list <- lst_merge.sorted) println(list)
   }
 
 }
