@@ -1,4 +1,4 @@
-object Hi{
+object Hi_List{
   def main(args: Array[String]){
     val lst_0 = List(3,12,7,10,9,8,11,6,13)
     val lst_1 = 3::5::7::Nil
